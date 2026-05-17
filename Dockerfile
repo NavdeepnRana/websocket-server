@@ -19,4 +19,4 @@ RUN npm install --production
 
 EXPOSE 5000
 
-CMD ["npm", "server.js"] 
+CMD ["node", "server.js"]
